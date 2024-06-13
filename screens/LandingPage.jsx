@@ -1,11 +1,17 @@
-import Header from "@/components/general/Header";
+import Footer from "@/components/general/Footer";
+import AboutUs from "@/components/landing-page/AboutUs";
+import MissionAndVision from "@/components/landing-page/MissionAndVision";
+import Services from "@/components/landing-page/Services";
 import Spotlight from "@/components/landing-page/Spotlight";
 
 const LandingPage = () => {
     return (
         <>
-            <Header />
             <Spotlight />
+            <AboutUs />
+            <Services />
+            <MissionAndVision />
+            <Footer />
         </>
     );
 };

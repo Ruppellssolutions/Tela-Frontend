@@ -1,4 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url("../assets/css/style.css");
+
 html {
     display: block;
     margin: 0;
