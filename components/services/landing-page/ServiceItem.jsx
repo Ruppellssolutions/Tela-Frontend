@@ -15,7 +15,10 @@ const ServiceItem = ({
         >
             <div id="top" className="flex flex-wrap gap-[8px] justify-end">
                 {tags.map((tag, i) => (
-                    <span className="bg-[#07070747] text-[14px] border-[1px] border-[#fff] text-[#fff] border-solid w-max rounded-[20px] p-[4px_8px]">
+                    <span
+                        key={i}
+                        className="bg-[#07070747] text-[14px] border-[1px] border-[#fff] text-[#fff] border-solid w-max rounded-[20px] p-[4px_8px]"
+                    >
                         {tag}
                     </span>
                 ))}

@@ -21,11 +21,11 @@ const Footer = () => {
                             Let’s <span className="">discuss</span> your{" "}
                             <span className="">doubts</span> with us
                             <Link
-                                href="/"
+                                href="/contact-us"
                                 className="flex align-center gap-[14px] mt-3 border-[1px] bg-[#fff] border-solid w-max rounded-[20px] p-[6px_15px]"
                             >
                                 <span className="text text-[#000] text-[14px]">
-                                    Let's talk
+                                    Let&apos;s talk
                                 </span>
                                 <span className="icon center-align w-[22px]">
                                     <Image
@@ -53,7 +53,7 @@ const Footer = () => {
                                     height={20}
                                 />
                             </span>
-                            <div className="right flex  items-center flex-wrap gap-[6px]">
+                            <span className="right flex  items-center flex-wrap gap-[6px]">
                                 <a
                                     href="tel:+917994720767"
                                     className="text-[#fff] text-[16px]"
@@ -66,7 +66,7 @@ const Footer = () => {
                                 >
                                     +91 7994 720 767
                                 </a>
-                            </div>
+                            </span>
                         </p>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const Footer = () => {
                     <div className="left flex lg:items-center justify-between flex-col lg:flex-row gap-8 w-full lg:w-[60%]">
                         <div className="logo-container w-16 sm:w-24">
                             <Image
-                                src="/icons/logo/tela.svg"
+                                src="/icons/logo/tela-group.svg"
                                 alt="tela"
                                 width={40}
                                 height={40}

@@ -5,10 +5,15 @@ import Link from "next/link";
 import styled, { css } from "styled-components";
 import ToggleLanguage from "./ToggleLanguage";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import ResponsiveNavbar from "./ResponsiveNavbar";
 
 const Header = () => {
+    const pathname = usePathname();
+
     const [scrollingDown, setScrollingDown] = useState(false);
     const [headerTranslateY, setHeaderTranslateY] = useState(0);
+    const [isActive, setActive] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -34,7 +39,9 @@ const Header = () => {
         };
     }, [headerTranslateY]);
 
-    const isDark = false;
+    const darkThemedPages = ["/contact-us", "/about-us", "/services"];
+
+    const isDark = darkThemedPages.includes(pathname);
 
     return (
         <Container
@@ -54,22 +61,40 @@ const Header = () => {
             <Navs $isDark={isDark}>
                 <ul className="flex align-center">
                     <li>
-                        <Link href="/" className={`active`}>
+                        <Link
+                            href="/"
+                            className={`${pathname === "/" ? "active" : ""}`}
+                        >
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link href="/" className={``}>
+                        <Link
+                            href="/services"
+                            className={`${
+                                pathname === "/services" ? "active" : ""
+                            }`}
+                        >
                             Services
                         </Link>
                     </li>
                     <li>
-                        <Link href="/" className={``}>
+                        <Link
+                            href="/about-us"
+                            className={`${
+                                pathname === "/about-us" ? "active" : ""
+                            }`}
+                        >
                             About Us
                         </Link>
                     </li>
                     <li>
-                        <Link href="/contact-us" className={``}>
+                        <Link
+                            href="/contact-us"
+                            className={`${
+                                pathname === "/contact-us" ? "active" : ""
+                            }`}
+                        >
                             Contact Us
                         </Link>
                     </li>
@@ -77,17 +102,23 @@ const Header = () => {
             </Navs>
             <Right className="flex align-center gap-[20px]">
                 <ToggleLanguage isDark={isDark} />
-                <NavIcon>
-                    <img
+                <NavIcon onClick={() => setActive(!isActive)}>
+                    <Image
                         src={
                             isDark
                                 ? "/icons/main/navIconDark.svg"
                                 : "/icons/main/navIcon.svg"
                         }
                         alt="nav icon"
+                        width={32}
+                        height={32}
                     />
                 </NavIcon>
             </Right>
+            <ResponsiveNavbar
+                isActive={isActive}
+                closeHandler={() => setActive(false)}
+            />
         </Container>
     );
 };
@@ -95,7 +126,7 @@ const Header = () => {
 export default Header;
 
 const Container = styled.header`
-    z-index: 100;
+    z-index: 1000;
     background-color: #ffffff03;
     padding: 20px 8%;
     position: fixed;
@@ -112,10 +143,10 @@ const Container = styled.header`
         `}
 
     h1 {
-        width: 100px;
+        width: 68px;
 
         @media all and (max-width: 620px) {
-            width: 70px;
+            width: 48px;
         }
 
         img {

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
 
@@ -46,7 +45,7 @@ const Spotlight = () => {
         }, 4000);
 
         return () => clearInterval(interval);
-    }, [nextImageIndex]);
+    }, [nextImageIndex, spotlighData.length]);
 
     return (
         <Container id="spotlight" className="w-full">
