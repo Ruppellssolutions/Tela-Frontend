@@ -3,7 +3,7 @@ import ServiceItem from "../services/landing-page/ServiceItem";
 const Services = () => {
     const services = [
         {
-            title: "Service 01",
+            title: "Catering",
             description:
                 "Enjoy our finest and most vibrant journey of top-class catering service, creating incredible memories and embracing the sense of taste.",
             image: "/images/landing-page/service-01.png",
@@ -15,7 +15,7 @@ const Services = () => {
             ],
         },
         {
-            title: "Service 02",
+            title: "Human Resource",
             description:
                 "We specialize in connecting businesses with a diverse pool of talented and experienced professionals across various trades.",
             image: "/images/landing-page/service-02.png",
@@ -26,18 +26,6 @@ const Services = () => {
                 "Tailored Solutions",
             ],
         },
-        // {
-        //     title: "Service 03",
-        //     description:
-        //         "Our commitment to quality means we select the finest ingredients with a ...",
-        //     image: "/images/landing-page/service-03.png",
-        //     tags: [
-        //         "24 Hours service",
-        //         "Corporate Events",
-        //         "Weddings",
-        //         "Private Parties",
-        //     ],
-        // },
     ];
 
     return (

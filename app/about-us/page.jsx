@@ -113,7 +113,7 @@ const page = () => {
                                         Our objectives are uncompromised
                                         dedication and going to any lengths to
                                         ensure you get the best out of the deal
-                                        from us. That's our promise to you.
+                                        from us. That&apos;s our promise to you.
                                     </p>
                                 </li>
                             </ul>
