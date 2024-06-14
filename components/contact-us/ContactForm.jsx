@@ -26,7 +26,6 @@ const ContactForm = () => {
         },
         validationSchema,
         onSubmit: (values) => {
-            console.log(values, "from client");
             submitContactUs(values);
         },
     });
