@@ -25,7 +25,7 @@ const Footer = () => {
                                 className="flex align-center gap-[14px] mt-3 border-[1px] bg-[#fff] border-solid w-max rounded-[20px] p-[6px_15px]"
                             >
                                 <span className="text text-[#000] text-[14px]">
-                                    Let&apos;s talk
+                                    Get a quote!
                                 </span>
                                 <span className="icon center-align w-[22px]">
                                     <Image
@@ -95,7 +95,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     className="text-[#C1C1C1] text-[14px] sm:text-[16px]"
-                                    href="/"
+                                    href="/services"
                                 >
                                     Services
                                 </Link>
@@ -103,7 +103,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     className="text-[#C1C1C1] text-[14px] sm:text-[16px]"
-                                    href="/"
+                                    href="/about-us"
                                 >
                                     About Us
                                 </Link>
@@ -111,7 +111,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     className="text-[#C1C1C1] text-[14px] sm:text-[16px]"
-                                    href="/"
+                                    href="/contact-us"
                                 >
                                     Contact Us
                                 </Link>

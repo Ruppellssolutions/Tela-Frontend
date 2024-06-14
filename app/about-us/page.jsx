@@ -84,17 +84,14 @@ const page = () => {
                                             />
                                         </span>
                                         <h6 className="text-[#070707] text-[24px]">
-                                            Our Vision
+                                            We Provide
                                         </h6>
                                     </div>
                                     <p className="description md:text-[18px] lg:text-[19px] font-['SF_UI_Display_Thin']">
-                                        I am free, but neither are the players
-                                        of life. For it will be good in time.
-                                        Let it be that the smile on the throat
-                                        needs I am free, but neither are the
-                                        players of life. For it will be good in
-                                        time. Let it be that the smile on the
-                                        throat needs.
+                                        We follow two motos in our line of work.
+                                        Choosing the superior one in quality and
+                                        delivering credible service. Rest
+                                        assured, you will have peace of mind.
                                     </p>
                                 </li>
                                 <li className="mission mb-10 last:mb-0">
@@ -109,17 +106,14 @@ const page = () => {
                                             />
                                         </span>
                                         <h6 className="text-[#070707] text-[24px]">
-                                            Our Mission
+                                            We Promise
                                         </h6>
                                     </div>
                                     <p className="description md:text-[18px] lg:text-[19px] font-['SF_UI_Display_Thin']">
-                                        I am free, but neither are the players
-                                        of life. For it will be good in time.
-                                        Let it be that the smile on the throat
-                                        needs I am free, but neither are the
-                                        players of life. For it will be good in
-                                        time. Let it be that the smile on the
-                                        throat needs.
+                                        Our objectives are uncompromised
+                                        dedication and going to any lengths to
+                                        ensure you get the best out of the deal
+                                        from us. That's our promise to you.
                                     </p>
                                 </li>
                             </ul>

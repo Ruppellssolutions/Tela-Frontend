@@ -10,27 +10,27 @@ const Spotlight = () => {
 
     const spotlighData = [
         {
-            title: "Experience The Summit of Luxury and Comfort",
+            title: "Elevate Your Experience With Our Sublime Service and Solutions",
             image: "/images/landing-page/spotlight-bg-1.png",
             smallImage: "/images/landing-page/spotlight-small-1.png",
             description:
-                "Step beyond the ordinary and transcend into a world of unparalleled luxury. From the moment you arrive, be greeted with exquisite service, nuanced design, and amenities curated to elevate your experience.",
+                "Redefining excellence, Tela brings memorable creations and an incredible workforce that make your event and business run delicious.",
         },
         {
-            title: "Escape the Ordinary and Rediscover the Art of Rejuvenation",
+            title: "Spread Cheer with Stunning Menus and Impeccable Service for Your Esteemed Events.",
             image: "/images/landing-page/spotlight-bg-1.png",
             smallImage: "/images/landing-page/spotlight-small-2.png",
             // image: "https://arabdreams-static-assets.s3.me-south-1.amazonaws.com/causeway-whales/images/img-two.png",
             description:
-                "Here awaits a heaven of serenity where your mind and body can truly rest. We've meticulously crafted an environment designed to melt away stress and awaken your inner peace. Relax in the best spa in Bahrain.",
+                "Our curated buffet of various cuisines offers a wide selection of dishes to make your events remarkable with a blend of quality and taste.",
         },
         {
-            title: "Bespoke Spa,Invoked Wellness,Reawaken You",
+            title: "Thumb Your Style with Our Professional Catering, Make Your Occasions So Delicious",
             image: "/images/landing-page/spotlight-bg-1.png",
             smallImage: "/images/landing-page/spotlight-small-1.png",
             // image: "https://arabdreams-static-assets.s3.me-south-1.amazonaws.com/causeway-whales/images/img-three.png",
             description:
-                "Perfect for soaking up the sun and enjoying a good book. Whether you're looking to cool off after a day of sightseeing or simply want to relax poolside. Dip into a tranquil pool for a guaranteed escape.",
+                "Feel the finest food experience. Using specifically sourced ingredients and an expert menu, we make food an emotion",
         },
     ];
 
@@ -134,10 +134,18 @@ export default Spotlight;
 const Container = styled.section`
     position: relative;
     min-height: 100vh;
+    height: max-content;
+
+    @media all and (max-width: 720px) {
+        min-height: max-content;
+        overflow: hidden;
+    }
 `;
 const BGImageContainer = styled.div`
     z-index: -1;
     position: relative;
+    width: 100%;
+    height: inherit;
     .background {
         position: absolute;
         top: 0;
@@ -211,7 +219,7 @@ const AnimatedContainer = styled.div`
         }
 
         .content {
-            width: 80%;
+            width: 70%;
             animation: ${upanddown} 12s infinite ease;
             margin: 0 auto;
             margin-bottom: 100px;
@@ -344,7 +352,7 @@ const MovingBar = styled.div`
 
 const MovingBarWrapper = styled.div`
     width: 450px;
-    margin-top: 26px;
+    margin: 26px 0 100px;
 
     @media all and (max-width: 720px) {
         width: 100%;

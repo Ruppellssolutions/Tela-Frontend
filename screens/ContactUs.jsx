@@ -18,9 +18,10 @@ const ContactUs = () => {
                             Let&apos;s collaborate
                         </h2>
                         <p className="text-[16px]  md:text-[18px] lg:text-[20px] text-[#868686] font-['SF_UI_Display_Light']">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quae enim molestias deserunt beatae. Eius,
-                            dolorem?
+                            Let Us Help You Create Seamless Experiences!
+                            <br /> At Tela, we are dedicated to creating
+                            meaningful collaboration. Let&apos;s work together
+                            to achieve your goals and reach new heights!
                         </p>
                         <div className="img-container my-10">
                             <Image

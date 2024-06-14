@@ -5,39 +5,39 @@ const Services = () => {
         {
             title: "Service 01",
             description:
-                "Our commitment to quality means we select the finest ingredients with a ...",
+                "Enjoy our finest and most vibrant journey of top-class catering service, creating incredible memories and embracing the sense of taste.",
             image: "/images/landing-page/service-01.png",
             tags: [
-                "24 Hours service",
-                "Corporate Events",
-                "Weddings",
-                "Private Parties",
+                "Delightful Cuisine",
+                "Premium Catering",
+                "Extensive Buffet",
+                "Unforgettable Events",
             ],
         },
         {
             title: "Service 02",
             description:
-                "Our commitment to quality means we select the finest ingredients with a ...",
+                "We specialize in connecting businesses with a diverse pool of talented and experienced professionals across various trades.",
             image: "/images/landing-page/service-02.png",
             tags: [
-                "24 Hours service",
-                "Corporate Events",
-                "Weddings",
-                "Private Parties",
+                "Increased Efficiency",
+                "Reduced Costs",
+                "Vast Network",
+                "Tailored Solutions",
             ],
         },
-        {
-            title: "Service 03",
-            description:
-                "Our commitment to quality means we select the finest ingredients with a ...",
-            image: "/images/landing-page/service-03.png",
-            tags: [
-                "24 Hours service",
-                "Corporate Events",
-                "Weddings",
-                "Private Parties",
-            ],
-        },
+        // {
+        //     title: "Service 03",
+        //     description:
+        //         "Our commitment to quality means we select the finest ingredients with a ...",
+        //     image: "/images/landing-page/service-03.png",
+        //     tags: [
+        //         "24 Hours service",
+        //         "Corporate Events",
+        //         "Weddings",
+        //         "Private Parties",
+        //     ],
+        // },
     ];
 
     return (
