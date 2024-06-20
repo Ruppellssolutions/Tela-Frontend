@@ -77,6 +77,7 @@ const MissionAndVision = () => {
                             <Image
                                 src="/images/landing-page/vision.png"
                                 alt="vision"
+                                className="rounded-lg"
                                 width={600}
                                 height={350}
                             />
@@ -108,6 +109,7 @@ const MissionAndVision = () => {
                             <Image
                                 src="/images/landing-page/mission.png"
                                 alt="mission"
+                                className="rounded-lg"
                                 width={600}
                                 height={350}
                             />

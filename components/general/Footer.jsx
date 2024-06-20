@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer
             id="footer"
-            className="m-2 sm:m-6 bg-[#130E19] rounded-lg p-[58px_0]"
+            className="m-2 sm:m-6 bg-[#130E19] rounded-lg md:rounded-[30px] p-[58px_0]"
         >
             <div id="content" className="wrapper">
                 <div

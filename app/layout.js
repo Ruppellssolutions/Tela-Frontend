@@ -2,13 +2,14 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StyledComponentsRegistry from "@/lib/registry";
 import Header from "@/components/general/Header";
+import { getImage } from "@/config/cdn";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
     title: "Tela |  Ruppells Solutions",
     description: "Tela",
-    image: ["/og.png"],
+    image: [getImage("/og.png")],
 };
 
 export default function RootLayout({ children }) {

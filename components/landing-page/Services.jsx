@@ -43,7 +43,7 @@ const Services = () => {
                 </div>
                 <div
                     id="content"
-                    className="flex align-center gap-[32px] justify-center 2xl:justify-end flex-wrap"
+                    className="flex items-center gap-[32px] justify-center md:justify-end 2xl:justify-end flex-wrap"
                 >
                     {services.map((service, i) => (
                         <ServiceItem
