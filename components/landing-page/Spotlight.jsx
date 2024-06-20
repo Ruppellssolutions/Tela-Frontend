@@ -12,13 +12,13 @@ const Spotlight = () => {
         {
             title: "Elevate Your Experience With Our Sublime Service and Solutions",
             image: "/images/landing-page/spotlight-bg-1.png",
-            smallImage: "/images/landing-page/spotlight-small-1.png",
+            smallImage: "/images/landing-page/spotlight-bg-1.png",
             description:
                 "Redefining excellence, Tela brings memorable creations and an incredible workforce that make your event and business run delicious.",
         },
         {
             title: "Spread Cheer with Stunning Menus and Impeccable Service for Your Esteemed Events.",
-            image: "/images/landing-page/spotlight-bg-1.png",
+            image: "/images/landing-page/spotlight-bg-2.png",
             smallImage: "/images/landing-page/spotlight-small-2.png",
             // image: "https://arabdreams-static-assets.s3.me-south-1.amazonaws.com/causeway-whales/images/img-two.png",
             description:
@@ -26,8 +26,8 @@ const Spotlight = () => {
         },
         {
             title: "Thumb Your Style with Our Professional Catering, Make Your Occasions So Delicious",
-            image: "/images/landing-page/spotlight-bg-1.png",
-            smallImage: "/images/landing-page/spotlight-small-1.png",
+            image: "/images/landing-page/spotlight-bg-3.png",
+            smallImage: "/images/landing-page/spotlight-small-3.png",
             // image: "https://arabdreams-static-assets.s3.me-south-1.amazonaws.com/causeway-whales/images/img-three.png",
             description:
                 "Feel the finest food experience. Using specifically sourced ingredients and an expert menu, we make food an emotion",
@@ -84,7 +84,14 @@ const Spotlight = () => {
                             Next
                         </span>
                         <p className="text-[#FFFFFF] text-[20px] font-['SF_UI_Display_Medium']">
-                            {spotlighData[currentImageIndex]?.title}
+                            {
+                                spotlighData[
+                                    currentImageIndex !==
+                                    spotlighData.length - 1
+                                        ? currentImageIndex + 1
+                                        : 0
+                                ]?.title
+                            }
                         </p>
                     </div>
                     <div className="right w-[50%]">
@@ -185,16 +192,16 @@ const upanddown = keyframes`
     transform: translateY(0);
     }
     33%{
-    transform: translateY(calc(-100% - 100px))
+    transform: translateY(calc(-100% - 60px))
     }
     63%{
-    transform: translateY(calc(-100% - 100px))
+    transform: translateY(calc(-100% - 60px))
     }
     66%{
-    transform: translateY(calc(-100% - 100px))
+    transform: translateY(calc(-100% - 60px))
     }
     97%{
-    transform: translateY(calc(-100% - 100px))
+    transform: translateY(calc(-100% - 60px))
     }
     100%{
     transform: translateY(0)
@@ -207,7 +214,7 @@ const AnimatedContainer = styled.div`
     /* padding-top: 250px; */
     height: 100%;
     .animation-container {
-        height: 240px;
+        height: 260px;
         overflow: hidden;
         margin-bottom: 22px;
 
@@ -215,7 +222,7 @@ const AnimatedContainer = styled.div`
             height: 260px;
         }
         @media all and (max-width: 640px) {
-            height: 220px;
+            height: 240px;
         }
 
         .content {
