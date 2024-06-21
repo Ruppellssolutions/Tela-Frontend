@@ -155,14 +155,23 @@ const BGImageContainer = styled.div`
     height: inherit;
     .background {
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        min-height: 100vh;
+        top: 100px;
+        left: 20px;
+        width: calc(100vw - 40px);
+        min-height: calc(100vh - 120px);
+        border-radius: 16px;
         background-size: cover;
         background-position: center;
         transition: opacity 1.5s linear;
         opacity: 0;
+
+        @media all and (max-width: 640px) {
+            left: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            border-radius: 0;
+        }
     }
 
     .fade-in {
@@ -277,6 +286,7 @@ const AnimatedContainer = styled.div`
 `;
 
 const BottomContainer = styled.div`
+    padding-right: 20px;
     @media all and (max-width: 720px) {
         align-items: start;
         padding: 0 10%;

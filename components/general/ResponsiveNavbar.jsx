@@ -23,6 +23,7 @@ const ResponsiveNavbar = ({ isActive = false, closeHandler = () => {} }) => {
                 <Link href="/">
                     <h2>
                         <Image
+                            className="w-[48px] md:w-[68px]"
                             width={200}
                             height={100}
                             src="/icons/logo/tela.svg"

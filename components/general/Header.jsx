@@ -39,9 +39,10 @@ const Header = () => {
         };
     }, [headerTranslateY]);
 
-    const darkThemedPages = ["/contact-us", "/about-us", "/services"];
+    // const darkThemedPages = ["/contact-us", "/about-us", "/services"];
+    // const isDark = darkThemedPages.includes(pathname);
 
-    const isDark = darkThemedPages.includes(pathname);
+    const isDark = false;
 
     return (
         <Container
@@ -127,14 +128,13 @@ export default Header;
 
 const Container = styled.header`
     z-index: 1000;
-    background-color: #ffffff03;
     padding: 20px 8%;
     position: fixed;
     top: 0;
     left: 0;
     transition: top 0.7s ease-in-out;
     backdrop-filter: blur(30px);
-    background: rgba(0, 0, 0, 0.2);
+    background: #130e19;
 
     ${({ $scrollingdown }) =>
         $scrollingdown === "true" &&

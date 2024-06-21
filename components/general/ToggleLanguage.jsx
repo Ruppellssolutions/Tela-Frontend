@@ -53,7 +53,7 @@ const ToggleButtonContainer = styled.div`
     .tgl-btn {
         width: 60px;
         height: 30px;
-        background-color: #130e19;
+        background-color: #1f1f1f;
         border-radius: 25px;
         position: relative;
         cursor: pointer;
