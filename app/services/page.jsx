@@ -6,41 +6,41 @@ const page = () => {
     const jobConsulting = [
         {
             image: "/images/services/service-1-1.png",
-            title: "Job consulting",
+            title: "Extensive Network",
             description:
-                "Ut sodales, ex sit amet consectetur accumsan, nibh ex sollicitudin metus, volutpat lacinia arcu nibh vel ante. Proin dapibus dui eget justo tincidunt eleifend. ",
+                "We have a vast database of pre-vetted skilled laborers, ensuring you have access to the right candidate for the job.",
         },
         {
             image: "/images/services/service-1-2.png",
-            title: "Job consulting",
+            title: "Tailored Solutions",
             description:
-                "Ut sodales, ex sit amet consectetur accumsan, nibh ex sollicitudin metus, volutpat lacinia arcu nibh vel ante. Proin dapibus dui eget justo tincidunt eleifend. ",
+                "Following a detailed process, we build a keen understanding of your needs and project requirements to match you with the most qualified candidates.",
         },
         {
             image: "/images/services/service-1-3.png",
-            title: "Job consulting",
+            title: "Cost-Effectiveness",
             description:
-                "Ut sodales, ex sit amet consectetur accumsan, nibh ex sollicitudin metus, volutpat lacinia arcu nibh vel ante. Proin dapibus dui eget justo tincidunt eleifend. ",
+                "Our services are cost-effective, eliminating the overhead costs associated with in-house recruitment efforts.",
         },
     ];
     const cateringAndFood = [
         {
             image: "/images/services/service-2-1.png",
-            title: "Job consulting",
+            title: "Culinary Expertise",
             description:
-                "Ut sodales, ex sit amet consectetur accumsan, nibh ex sollicitudin metus, volutpat lacinia arcu nibh vel ante. Proin dapibus dui eget justo tincidunt eleifend. ",
+                "A team of passionate chefs, with years of experience, creates exquisite dishes from a diverse range of cuisines. Whether you crave classic elegance or innovative creations, we can create the wonder and taste you crave.",
         },
         {
             image: "/images/services/service-2-2.png",
-            title: "Job consulting",
+            title: "Unparalleled Service",
             description:
-                "Ut sodales, ex sit amet consectetur accumsan, nibh ex sollicitudin metus, volutpat lacinia arcu nibh vel ante. Proin dapibus dui eget justo tincidunt eleifend. ",
+                "Our dedicated planners work tirelessly to understand your vision and ensure every detail is flawlessly executed. From menu planning to service, we handle everything professionally and focus on exceeding your expectations.",
         },
         {
             image: "/images/services/service-2-3.png",
-            title: "Job consulting",
+            title: "Customizable Packages",
             description:
-                "Ut sodales, ex sit amet consectetur accumsan, nibh ex sollicitudin metus, volutpat lacinia arcu nibh vel ante. Proin dapibus dui eget justo tincidunt eleifend. ",
+                "Be convenient, there are a variety of catering packages to suit your event size, budget, and theme. Whether it's an intimate gathering or a grand celebration, we can create a personalized catering experience that fits your needs",
         },
     ];
 
