@@ -49,7 +49,7 @@ const page = () => {
             <main className="wrapper pt-[90px] sm:pt-[180px] pb-[60px] sm:pb-[100px]">
                 <div className="head flex items-center gap-5 justify-between flex-wrap">
                     <h2 className="text-[28px] sm:text-[38px] w-full md:w-[35%] font-['SF_UI_Display_Medium']">
-                        Services
+                        Our Services
                     </h2>
                     <p className="description w-full md:w-[60%] text-[17px] sm:text-[22px] lg:text-[26px] font-['SF_UI_Display_Thin']">
                         Dedicated to excellence, delivering results that exceed
@@ -58,7 +58,7 @@ const page = () => {
                 </div>
                 <div id="job-consulting" className="m-[40px_0]">
                     <h3 className="text-[#000000] text-[26px] sm:text-[32px] font-['SF_UI_Display_Thin'] mb-[24px]">
-                        Job consulting
+                        Job Consulting
                     </h3>
                     <div className="md:overflow-x-scroll w-full">
                         <ul className="services w-full justify-center md:justify-normal flex flex-wrap md:flex-nowrap items-center gap-3">
